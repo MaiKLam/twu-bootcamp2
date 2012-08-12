@@ -16,4 +16,7 @@ public enum LengthType implements IUnitType {
         return this.ratioToBaseUnit;
     }
 
+    public double getValueInBaseUnit(double value) {
+        return ratioToBaseUnit * value;
+    }
 }
