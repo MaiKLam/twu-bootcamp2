@@ -1,4 +1,4 @@
-import com.twu.whatever.LengthType;
+import com.twu.bootcamp.LengthType;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -30,7 +30,7 @@ public class LengthTypeTests {
     @Test
     public void shouldHaveMillimeterAsBaseUnit(){
         double lengthInMm = 1;
-        double lengthInMm2 = LengthType.MILLIMETER.getValueInBaseUnit(lengthInMm);
-        assertThat(lengthInMm2, is(1d));
+        double lengthInBaseUnit = LengthType.MILLIMETER.getValueInBaseUnit(lengthInMm);
+        assertThat(lengthInBaseUnit, is(1d));
     }
 }

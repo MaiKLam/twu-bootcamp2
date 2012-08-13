@@ -1,3 +1,4 @@
+
 public class Comparator {
 
     public enum ConversionType {

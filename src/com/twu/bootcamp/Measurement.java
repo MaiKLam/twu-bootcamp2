@@ -1,6 +1,6 @@
-package com.twu.whatever;
+package com.twu.bootcamp;
 
-public abstract class Measurement {
+public class Measurement {
 
     protected final double value;
     protected final IUnitType type;
@@ -12,8 +12,8 @@ public abstract class Measurement {
     }
 
     public int compare(Measurement another) {
-        if(this.getClass() != another.getClass())
-            throw new IllegalArgumentException("Cannot compare different types of measurement");
+        if(this.type.getClass() != another.type.getClass())
+            throw new IllegalArgumentException("Cannot Add Different Types of Measurement");
 
         if(this.toBaseUnit() > another.toBaseUnit()) return 1;
         if(this.toBaseUnit() < another.toBaseUnit()) return -1;
@@ -21,7 +21,25 @@ public abstract class Measurement {
     }
 
     protected double toBaseUnit(){
-        return this.value * this.type.getRatioToBaseUnit();
+        return this.type.getValueInBaseUnit(this.value);
+    }
+
+    public Measurement add(Measurement another) {
+        if(this.type != another.type)
+            throw new IllegalArgumentException("Output type not specified!");
+        return new Measurement((this.value + another.value), this.type);
+    }
+
+    public Measurement add(Measurement another, IUnitType outputType) {
+        if(this.type.getClass() != another.type.getClass())
+            throw new IllegalArgumentException("Cannot Add Different Types of Measurement");
+
+        if(this.type == another.type)
+            return this.add(another);
+
+        double totalValueInBaseUnit = this.toBaseUnit() + another.toBaseUnit();
+
+        return new Measurement(outputType.convertFromBaseUnit(totalValueInBaseUnit),outputType);
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.twu.whatever;
+package com.twu.bootcamp;
 
 public enum LengthType implements IUnitType {
     FEET (300),
@@ -12,8 +12,8 @@ public enum LengthType implements IUnitType {
         this.ratioToBaseUnit = ratioToBaseUnit;
     }
 
-    public double getRatioToBaseUnit(){
-        return this.ratioToBaseUnit;
+    public double convertFromBaseUnit(double value){
+        return value/ratioToBaseUnit;
     }
 
     public double getValueInBaseUnit(double value) {

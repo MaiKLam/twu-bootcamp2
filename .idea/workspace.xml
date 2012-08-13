@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0100758-3316-4f33-ba00-e2842dec5b03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/LengthTypeTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TemperatureTypeTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/VolumeTypeTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/IUnitType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/Length.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/LengthType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/Measurement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/Temperature.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/TemperatureType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/Volume.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/twu-bootcamp2/com/twu/whatever/VolumeType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/Length.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/Volume.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/LengthTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/TemperatureTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/VolumeTests.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/IUnitType.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/IUnitType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/LengthType.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/LengthType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/Measurement.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/Measurement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/Temperature.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/Temperature.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/TemperatureType.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/TemperatureType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/twu/whatever/VolumeType.java" afterPath="$PROJECT_DIR$/src/com/twu/bootcamp/VolumeType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/whatever/LengthType.java" afterPath="$PROJECT_DIR$/src/com/twu/whatever/LengthType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Comparator.java" afterPath="$PROJECT_DIR$/src/Comparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/LengthTypeTests.java" afterPath="$PROJECT_DIR$/test/LengthTypeTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/MeasurementTests.java" afterPath="$PROJECT_DIR$/test/MeasurementTests.java" />
     </list>
     <ignored path="twu-bootcamp2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,64 +83,7 @@
     <favorites_list name="twu-bootcamp2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TemperatureTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TemperatureTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="32" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Temperature.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Temperature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthTypeTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/LengthTypeTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="87" selection-start="477" selection-end="477" vertical-scroll-proportion="0.82051283">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Measurement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Measurement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="63" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemperatureType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/TemperatureType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="62" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/LengthType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="62" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -138,22 +103,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/LengthUnit.java" />
-        <option value="$PROJECT_DIR$/test/UnitTest.java" />
-        <option value="$PROJECT_DIR$/test/MeasurementTests.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/UnitType.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/VolumeType.java" />
-        <option value="$PROJECT_DIR$/test/VolumeTests.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/Volume.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/IUnitType.java" />
-        <option value="$PROJECT_DIR$/test/LengthTests.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/Length.java" />
-        <option value="$PROJECT_DIR$/test/TemperatureTests.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/TemperatureType.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/Measurement.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/whatever/LengthType.java" />
         <option value="$PROJECT_DIR$/test/LengthTypeTests.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/whatever/VolumeType.java" />
+        <option value="$PROJECT_DIR$/src/Comparator.java" />
+        <option value="$PROJECT_DIR$/test/TemperatureTypeTests.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/Volume.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/IUnitType.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/LengthType.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/VolumeType.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/TemperatureType.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/Length.java" />
+        <option value="$PROJECT_DIR$/test/LengthTests.java" />
+        <option value="$PROJECT_DIR$/test/VolumeTests.java" />
+        <option value="$PROJECT_DIR$/test/TemperatureTests.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/bootcamp/Measurement.java" />
+        <option value="$PROJECT_DIR$/test/MeasurementTests.java" />
       </list>
     </option>
   </component>
@@ -261,7 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="whatever" />
+              <option name="myItemId" value="bootcamp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,85 +273,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LengthTypeTests">
-    <configuration default="false" name="MeasurementTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="twu-bootcamp2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MeasurementTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="VolumeTests.shouldAdd2VolumesOfDifferentTypes" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="twu-bootcamp2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VolumeTests" />
-      <option name="METHOD_NAME" value="shouldAdd2VolumesOfDifferentTypes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TemperatureTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="twu-bootcamp2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TemperatureTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MeasurementTests">
     <configuration default="false" name="LengthTypeTests.shouldBeAbleToConvertFeetToMillimeters" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="twu-bootcamp2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -415,6 +302,72 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LengthTypeTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VolumeTypeTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="twu-bootcamp2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VolumeTypeTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TemperatureTypeTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="twu-bootcamp2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TemperatureTypeTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MeasurementTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="twu-bootcamp2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MeasurementTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -581,12 +534,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MeasurementTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AllMeasureTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VolumeTests.shouldAdd2VolumesOfDifferentTypes" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TemperatureTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LengthTypeTests.shouldBeAbleToConvertFeetToMillimeters" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LengthTypeTests" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AllMeasureTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthTypeTests.shouldBeAbleToConvertFeetToMillimeters" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthTypeTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.VolumeTypeTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TemperatureTypeTests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MeasurementTests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -630,7 +583,11 @@
       <created>1344509605672</created>
       <updated>1344509605672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add LengthType tests">
+      <created>1344805701517</created>
+      <updated>1344805701517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -716,7 +673,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Length stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LengthType tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -731,6 +688,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add Length stuff" />
+    <MESSAGE value="add LengthType tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -740,91 +698,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/ProbabilityTests.java">
+    <entry file="file://$PROJECT_DIR$/test/VolumeTypeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="87" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.496633" />
+        <state line="19" column="35" selection-start="616" selection-end="632" vertical-scroll-proportion="0.63973063">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="85" selection-start="291" selection-end="291" vertical-scroll-proportion="0.43771043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ComparatorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="42" selection-start="4398" selection-end="4398" vertical-scroll-proportion="0.5959596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MeasurementTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/VolumeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/IUnitType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/VolumeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="51" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/LengthTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="87" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Volume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Length.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="395" selection-end="395" vertical-scroll-proportion="0.44405594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TemperatureTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/Measurement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/TemperatureType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/whatever/LengthType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="62" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.033670034">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/LengthTypeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="87" selection-start="477" selection-end="477" vertical-scroll-proportion="0.82051283">
+        <state line="18" column="62" selection-start="557" selection-end="575" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TemperatureTypeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="86" selection-start="407" selection-end="407" vertical-scroll-proportion="0.41958043">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="0.2020202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/VolumeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="334" selection-end="334" vertical-scroll-proportion="0.47138047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/LengthType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="320" selection-end="320" vertical-scroll-proportion="0.47138047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/TemperatureType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="378" selection-end="378" vertical-scroll-proportion="0.5050505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MeasurementTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="76" selection-start="5873" selection-end="5873" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/Measurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="90" selection-start="744" selection-end="744" vertical-scroll-proportion="0.06734007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/bootcamp/IUnitType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="112" selection-end="159" vertical-scroll-proportion="0.13468014">
+          <folding />
         </state>
       </provider>
     </entry>
